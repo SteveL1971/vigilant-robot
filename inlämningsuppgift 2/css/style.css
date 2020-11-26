@@ -1,0 +1,2337 @@
+@import "standard.css";
+
+/* font-family: 'Roboto', sans-serif; */
+
+.container {
+    min-width: 320px;
+}
+
+.fs-but {
+    font-size: 10px;
+}
+
+.fs-but2 {
+    font-size: 14px;
+}
+
+#matris-parent {
+    position: relative; 
+    width:100%;
+}
+
+#matris-sm {
+    background-image: radial-gradient(#f2805b20 20%, transparent 20%);
+    background-position: 0 0, 10px 10px;
+    background-size: 10px 10px;
+}
+
+.matr-sm {
+    position: relative;
+    left: 120px;
+    top:100px;
+    height: 100px;
+    width: 100px
+}
+
+#matris-xl {
+    background-image: radial-gradient(#f2805b20 20%, transparent 20%);
+    background-position: 0 0, 20px 20px;
+    background-size: 30px 30px;
+}
+
+#matris-xl:hover {
+    background-image: radial-gradient(#f2805b20 30%, transparent 30%);
+    background-position: 0 0, 20px 20px;
+    background-size: 30px 30px;
+}
+
+#iphone3 {
+    transition: 0.3s;
+    height: 600px;
+}
+
+#iphone-easy2 {
+    transition: 0.5s;
+}
+
+#iphone-c2-rt {
+    transition: 0.5s;
+}
+ #iphone-c2-rb {
+    transition: 0.3s;
+}
+#iphone-c2-rbr {
+    transition: 0.3s;
+}
+ #iphone-c2-lt {
+    transition: 0.5s;
+}
+#iphone-c2-lb {
+    transition: 0.3s;
+}
+#iphone-c2-lbr {
+    transition: 0.3s;
+}
+#iphone-c2-lbr:active {
+    background-image: url(/images/mockup-b.png);
+    transition: 0.5s;
+}
+#iphone-c2-lb:active {
+    background-image: url(/images/mockup-c.png);
+    transition: 0.5s;
+}
+#iphone-c2-lt:active {
+    background-image: url(/images/mockup-e.png);
+    transition: 0.5s;
+}
+
+#iphone-c2-rbr:active {
+    background-image: url(/images/mockup-d.png);
+    transition: 0.5s;
+}
+#iphone-c2-rb:active {
+    background-image: url(/images/mockup-f.png);
+    transition: 0.5s;
+}
+
+#iphone-c2-rt:active {
+    background-image: url(/images/mockup-a.png);
+    transition: 0.5s;
+}
+
+#iphone-easy1:active {
+    background-image: url(/images/mockup-4-90.png);
+    transition: 0.5s;
+}
+
+#iphone-easy2:active {
+    background-image: url(/images/mockup-5-90.png);
+    transition: 0.5s;
+}
+
+#iphone3:active {
+    background-image: url(/images/mockup-3-90.png);
+    transition: 0.5s;
+}
+
+#iphone-c1-rt:active {
+    background-image: url(/images/mockup-2-90.png);
+    transition: 0.5s;
+}
+
+#iphone-c1-rb:active {
+    background-image: url(/images/mockup-1-90.png);
+    transition: 0.5s;
+}
+#iphone-c1-lt:active {
+    background-image: url(/images/mockup-6-90.png);
+    transition: 0.5s;
+}
+
+#iphone-c1-lb:active {
+    background-image: url(/images/mockup-7-90.png);
+    transition: 0.5s;
+}
+
+#headcolour {
+    background-color: #1487FD;
+}
+
+.fixed-height {
+    height: 650px !important;
+}
+
+#iphone-c1-rb:hover {
+    transform: rotate(11deg);
+}
+
+#iphone-c1-rt:hover {
+    transform: rotate(349deg);
+}
+
+#iphone-c1-lb:hover {
+    transform: rotate(11deg);
+}
+
+#iphone-c1-lt:hover {
+    transform: rotate(349deg);
+}
+
+#iphone3 {
+    opacity: 95%;
+    width: 280px;
+}
+
+#iphone3:hover {
+    opacity: 100%;
+    background-size: 100%;
+    top:-20px;
+    left:100px;
+    width: 300px;
+    height: 600px;
+    transition: 0.3s;
+}
+
+.shadowbox {
+    align-items: center; 
+    padding: 0.2rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px 2px #a8a8a8; 
+    background-color: rgba(220, 220, 220, 0.25);
+    justify-content: space-around;
+    align-items: center;
+}
+
+#features {
+    display:flex; 
+    justify-content: center;
+}
+
+.caro1-text-align {
+    text-align:center;
+}
+
+.caro2-text-align {
+    text-align:center;
+}
+
+#caro1 h1 {
+    font-size: 2.2rem;
+}
+
+#caro2 h1 {
+    font-size: 2.3rem;
+}
+
+#caro1 p {
+    font-size: 0.6rem;
+}
+
+#caro2 p {
+    font-size: 0.6rem;
+}
+
+.fw-700 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.form-design {
+    padding: 4rem 0rem 0rem 0rem;
+    height:760px;
+}
+.form-padding {
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+.container2 {
+    color: #626262;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 10;
+    flex-direction: row;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    border: 0;
+    max-width: 320px;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 0px;
+    left: 0%;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.bg-lightblue {
+    background-color: #42A0FF;
+}
+
+.bg-black {
+    background-color: #333333;
+}
+
+.text-blue {
+    color: #1487FD;
+}
+
+.black-text {
+    color: black;
+}
+
+.grey-text {
+    color: #8a8a8a;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.c1-p-para {
+    flex: 1;
+}
+
+.c2-p-para {
+    flex: 1;
+}
+
+.c1-p-padd {
+    flex: 0;
+}
+
+.c2-p-padd {
+    flex: 0;
+}
+
+.btn {
+    font-weight: 700;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem !important;
+    text-transform: none;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    top:700px;  
+    background-color: #42A0FF;
+    border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  text-align: center;
+  height: 30px;
+  visibility: hidden;
+}
+
+.circle1 {
+    vertical-align: middle;
+    border-radius: 3rem;
+    border: 2px solid #ffbb00;
+    background-color: transparent;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.circle2 {
+    vertical-align: middle;
+    border-radius: 3rem;
+    border: 3px solid #ffbb00;
+    background-color: #ffbb00;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+#circle-easy1 {
+    position: absolute;
+    border-radius: 100%;
+    border: 24px solid #ffbb00cc;
+    background-color: transparent;
+    width: 7em;
+    height: 7rem;
+    display: inline-block; 
+}
+
+#circle-easy2 {
+    position: absolute;
+    border-radius: 100%;
+    background-color: #1487FD;
+    width: 4rem;
+    height: 4rem;
+}
+
+#circle-link {
+    vertical-align: middle;
+    border-radius: 0.3rem;
+    background-color: #ffffff38;
+    width: 2rem;
+    height: 2rem;
+}
+
+#circlephone{
+    position: relative;
+    height: 513px; 
+    width: 320px;
+}
+
+#circlephone2{
+    position: absolute;
+    height: auto; 
+    width: auto;
+}
+
+#circle3 {
+    border-radius: 100%;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    width: 32rem;
+    height: 32rem;
+}
+
+#circle4 {
+    border-radius: 100%;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    width: 24rem;
+    height: 24rem;
+}
+
+#circle5 {
+    border-radius: 100%;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+#circle6 {
+    border-radius: 100%;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+#circle7 {
+    border-radius: 100%;
+    border: 1px solid #1487FD;
+    background-color: #1487FD;
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+#circle8 {
+    border-radius: 100%;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+#circle9 {
+    border-radius: 100%;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+#circle10 {
+    border-radius: 100%;
+    border: 1px solid #ffbb00;
+    background-color: #ffbb00;
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.fa-caret-right {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.btn-yellow {
+    background-color:  #ffbb00 !important;
+    color: #fff;
+    font-size: 1rem;
+    transition: 0.3s;
+    width: 11rem;
+    height: 3rem;
+}
+
+.btn-opaque {
+    background-color: transparent !important;
+    color: #fff;
+    font-size: 1rem;
+    transition: 0.3s;
+    height: 3rem;
+    width: 12rem;
+    border-radius: 0.7rem;
+    border: 3px solid #ffffff70;
+}
+
+.btn-blue {
+    background-color: #42A0FF !important;
+    color: #fff;
+    font-size: 1rem;
+    transition: 0.3s;
+    height: 3rem;
+    width: 12rem;
+    border-radius: 0.7rem;
+}
+
+.btn-orange {
+    font-size: 1.3rem;
+    width: 12rem;
+    background-color:  #ffbb0033 !important;
+    color: #ffbb00 !important;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.btn:active {
+    box-shadow: 0 5px #666;
+    opacity: 1;
+    transform: translateY(4px);
+}
+
+.container-ani {
+    height: 300px;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+    border-radius: 50%;
+}
+
+#circlephone2:hover div{
+    opacity: 1;
+    transition: 1.0s;
+}
+
+#slide2-1b:hover #iphone-c2-rt {
+    top:300px;
+    transition: 0.5s;
+}
+
+#slide2-1b:hover #iphone-c2-rb {
+    top:200px;
+    transition: 0.3s;
+}
+
+#slide2-1b:hover #iphone-c2-rbr {
+    top:50px;
+    transition: 0.3s;
+}
+
+#slide2-2a:hover #iphone-c2-lt {
+    top:480px;
+    transition: 0.5s;
+}
+
+#slide2-2a:hover #iphone-c2-lb {
+    top:540px;
+    transition: 0.3s;
+}
+
+#slide2-2a:hover #iphone-c2-lbr {
+    top:420px;
+    transition: 0.3s;
+}
+
+.btn-orange-grid {
+    display: inline-block;
+    font-weight: 700;
+    padding: 0.1rem 0.1rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    background-color: transparent;
+    width: 2.5rem;
+    height: 2.5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gridbox-r {
+    display: flex; 
+    flex-direction: column; 
+    flex: 4;
+    padding-top: 1rem;
+    justify-content: left;
+    padding-left: 0.5rem;
+    padding-right:0.5rem;
+    text-align: left;
+}
+
+.gridbox-l {
+    display: flex; 
+    flex-direction: column; 
+    flex: 1;
+    padding: 0;
+    align-items: center;
+}
+
+#grid-2 p {
+        color: #8a8a8a;
+}
+
+#grid-2 h3 {
+    font-weight: 700;
+}
+
+#grid-2 #box1 p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+#grid-2 h5 {
+    color: #8a8a8a;
+    font-weight: 400;
+    font-size: 0.72rem;
+    line-height: 1.5;
+}
+
+#section-1 {
+    padding: 0;
+}
+
+.jcontent-sa {
+    justify-content: space-around;
+}
+
+.f-block {
+    display: block;
+}
+
+.btn-grey {
+    border-radius: 0.5rem;
+    width: 11rem;
+    height: 3.5rem;
+    margin-right: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8a8a8a30 !important;
+    color: #000 !important;
+    transition: 0.3s;
+}
+
+.btn-white {
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    width: 11rem;
+    height: 3.5rem;
+    transition: 0.3s;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#header-logo {
+    height:60px;
+}
+
+.button-format {
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bottom-logo {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+}
+
+#nav1 li {
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 100;
+    padding-left: 1.5rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container-pos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 270px;
+}
+
+.container-s1 {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    display: block;
+}
+
+.bottom-nav {
+    width: 100%;
+    padding: 1rem 1rem;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+#s2-2 {
+    width: 100%;
+    padding: 0rem 1rem;
+    justify-content: center;
+    margin-top: 0px;
+    margin: auto;
+}
+
+#appst-shell {
+    height: 850px;
+}
+
+#bottomnavbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+#socialmedia, #ec-nav, #counter-text, #links {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;  
+}
+
+#socialmedia {
+    height: 100px;
+    align-items: center;
+}
+
+a {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: white;
+}
+
+button:hover {
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+button {
+    color: white !important;
+    font-weight: 400 !important;
+}
+
+#socialmedia ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 1.3rem;
+    padding-bottom: 3.5rem;
+}
+
+#socialmedia ul li a {
+    margin: 1rem;
+    background-color: transparent;
+    padding: 0.7rem;
+    color: white;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.g-play {
+    display: flex;
+    color: black;
+    margin: auto;
+}
+
+#smedia1, #smedia2 {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+    padding-top: 2rem;
+    padding-right: 0rem; 
+    cursor: pointer;
+    outline:none;
+    background-color:transparent;
+    border: 0;
+}
+
+#smedia1:hover div {
+    border: 5px solid  #ffbb00;
+    background-color: #ffffff30;
+    transition: 0.3s;
+}
+
+#smedia2:hover div {
+    border: 5px solid  #ffbb00;
+    background-color: #ffffff30;
+    transition: 0.3s;
+}
+
+#smedia1:active div {
+    border: 11px solid  #ffbb00;
+    background-color: #ffffff30;
+    transition: 0.3s;
+}
+
+#smedia2:active div {
+    border: 11px solid  #ffbb00;
+    background-color: #ffffff30;
+    transition: 0.3s;
+}
+
+#smedia1 ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+#smedia1 li {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+#smedia2 ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+#smedia2 li {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+#s1-2 {
+    margin: auto;
+    width: 100%;
+}
+
+#s1-2 p {
+    color: #8a8a8a;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+#nav-height {
+    height:880px;
+}
+
+#bottomnavbar #openinghours {
+    margin-left: 2rem;
+}
+
+#bottomnavbar >  .container-pos2 > #openinghours > i {
+    font-size: 1.2rem;
+    font-weight: 300;
+    align-items: center;
+}
+
+#bottomavbar > .bottom-nav > #socialmedia  li  a  i {
+    color: white;
+}
+
+#bottomnavbar > .bottom-nav > #socialmedia  li  a  i:hover {
+    color: white
+}
+
+#bottomnavbar:hover > .bottom-nav > #socialmedia  li  a  i {
+color: white
+}
+
+#bottomnavbar > .container-pos2 {
+    display: flex;
+    justify-content: space-between; 
+    background-color: aliceblue;   
+}
+
+.whitespace200 {
+    height: 200px;
+}
+
+.whitespace100 {
+    height: 100px;
+}
+
+.whitespace50 {
+    height: 50px;
+}
+
+.whitespace75 {
+    height: 75px;
+}
+
+.whitespace15 {
+    height:15px;
+}
+
+.whitespace5vh {
+    height:5vh;
+}
+
+#app-screens-top {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#app-stats-top {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+#asian-carousel {
+    height: 40rem;
+}
+
+form {
+    width: 1200px;
+    height: 500px;
+}
+
+.form-styling  {
+    padding: 35px 20px;
+    background-color: rgba(211, 211, 211, 0.219);
+}
+
+.mess-styling  {
+    padding: 35px 20px;
+    background-color: rgba(211, 211, 211, 0.219);
+    border: 0;
+}
+
+#contact {
+    text-align: center;
+    width: auto;
+    display: flex; 
+    justify-content: center;   
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
+    width: 100%;
+}
+
+.bg-image {
+    background-image: url(/images/blue_background_crop.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.bg-rectangle {
+    background-image: url(/images/bg-rectangle.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.bg-layer {
+    background-image: url(/images/bg-effect.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.bg-layer-bottom {
+    background-image: url(/images/bg-effect.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.bg-image2 {
+    background-image: url(/images/fff.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.bg-image3 {
+    background-image: url(/images/global.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.logo-image {
+    background-image: url(/images/logo.png);
+    width: 9rem;
+    height: 3.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top; 
+}
+
+.g-play-image {
+    background-image: url(/images/google.png);
+    width: 28px;
+    height: 31px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center; 
+}
+
+.ease1-image {
+    background-image: url(/images/ease1.png);
+    width: 28px;
+    height: 31px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center; 
+}
+
+.ease2-image {
+    background-image: url(/images/ease2.png);
+    width: 28px;
+    height: 31px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center; 
+}
+
+.ease3-image {
+    background-image: url(/images/ease3.png);
+    width: 28px;
+    height: 31px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center; 
+}
+
+.ease4-image {
+    background-image: url(/images/ease4.png);
+    width: 28px;
+    height: 31px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center; 
+}
+
+.apple-image {
+    background-image: url(/images/apple.png);
+    width: 28px;
+    height: 34px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center; 
+}
+
+.ec-logo {
+    background-image: url(/images/ec-logo-mono.png);
+    width: 12rem;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 90%;
+}
+
+.ec-item {
+    height: 60px; 
+    display:flex;
+}
+
+.counter-padding {
+    padding-top:0.2rem;
+    padding-bottom: 1rem;
+}
+
+.f-inflex {
+    display: inline-flex;
+}
+
+.height60 {
+    height: 60px;
+}
+
+.carousel-item {
+    height: 850px;
+}
+
+.view {
+    height: 950px;
+}
+
+.iphone-image {
+    background-image: url(/images/iphone.png);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.iphone-image-a {
+    background-image: url(/images/mockup-a.png);
+}
+
+.iphone-image-b {
+    background-image: url(/images/mockup-b.png);
+}
+
+.iphone-image-c {
+    background-image: url(/images/mockup-c.png);
+}
+
+.iphone-image-d {
+    background-image: url(/images/mockup-d.png);
+}
+
+.iphone-image-e {
+    background-image: url(/images/mockup-e.png);
+}
+
+.iphone-image-f {
+    background-image: url(/images/mockup-f.png);
+}
+
+.iphone-image2 {
+    background-image: url(/images/iphone.png);
+    height: 513px;
+    width: 296px;
+}
+
+.iphone-image3 {
+    background-image: url(/images/iphone.png);
+    height: 440px;
+    width: 296px;
+}
+
+.iph-def, .iph-def-2, .iph-def-3, .iph-def-c2, .shadow-image {
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.iph-def {
+    height: 400px;
+    width: 180px;
+}
+
+.iph-def-2 {
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 613px;
+    width: 280px;
+}
+
+.iph-def-3 {
+    height: 400px;
+}
+
+.iph-def-c2 {
+    height: 537px;
+    width: 230px;
+}
+
+.iph-c2lt {
+    height: 513px;
+    width: 296px;
+    background-size: 100%;
+}
+
+.iph-c2rt {
+    height: 513px;
+    width: 296px;
+}
+
+.iph-c2lb {
+    height: 440px;
+    width: 296px;
+}
+
+.iph-c2rb {
+    height: 440px;
+    width: 296px;
+}
+
+.shadow-image {
+    background-image: url(/images/shadow.png);
+    height: 64px;
+    width: 200px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.navbar-default {
+    box-shadow: none;
+  }
+
+#showcase-1a {
+    flex: 1;
+    margin: auto;
+    padding-right: 5rem;
+    
+}
+
+#slide1-2 {
+    height: 350px;
+    padding-right: 0rem;
+    width: 400px;
+    margin: auto;
+    background-color: transparent;
+}
+
+#carousel1-slide1 {
+    height: 850px;
+    justify-content: space-between;
+}
+#carousel2-slide1 {
+    height: 650px;
+    justify-content: space-between;
+}
+
+#carousel1-slide2 {
+    height: 850px;
+    justify-content: space-between;
+}
+
+#carousel2-slide2 {
+    height: 650px;
+    justify-content: space-between;
+}
+
+#carousel1-slide1 p {
+    font-size: 1rem;
+}
+
+#carousel2-slide1 p {
+    font-size: 1.2rem;
+}
+
+#carousel1-slide2 p {
+    font-size: 1rem;
+}
+
+#carousel2-slide2 p {
+    font-size: 1.2rem;
+}
+
+#slide1-1a, #slide1-1b, #slide1-2a, #slide1-2b, #slide2-1a, #slide2-1b, #slide2-2a, #slide2-2b {
+    justify-content: left;
+    display: flex;
+    margin: auto;
+    width: auto;
+    padding: 0rem;
+    align-items: center;
+}
+
+#slide1-1a {
+    height: 500px;
+    flex:1;
+}
+
+#slide1-1b {
+    height: 500px;
+    flex:1;
+}
+
+#slide1-2a {
+    height: 500px;
+    flex:1;
+}
+
+#slide1-2b {
+    height: 500px;
+    flex:1;
+}
+
+#slide2-1a {
+    padding-top: 1rem;
+    height: 600px;
+    flex:1;
+}
+
+#slide2-1b {
+    height: 600px;
+    flex:1;
+}
+
+#slide2-2a {
+    height: 600px;
+    flex:1;
+}
+
+#slide2-2b {
+    padding-top: 1rem;
+    height: 600px;
+    flex:1;
+}
+
+.carousel-inner {
+    overflow: hidden;
+    height:1000px;
+}
+
+.c2-h {
+    height:650px;
+}
+
+#showcase-1b {
+    position: relative;
+    flex: 1;
+}
+
+.carousel {
+    height:900px;  
+}
+    
+.showcase-buttons {
+    justify-content: space-around;
+    flex-direction: column;
+    z-index: 100;
+}
+
+.s1-buttons {
+    justify-content: space-around;
+    flex-direction: row;
+}
+.s2-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#s2-h1, #s2-p {
+    text-align: left;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.watch-video {
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+}
+
+.arrow {
+    padding-left: 0.3rem;
+}
+
+#watch-video-2 {
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+}
+
+.nopadding {
+    padding:0;
+}
+
+#caro1-slide1 {
+    flex-direction: column;
+}
+
+#caro2-slide1 {
+    flex-direction: column;
+}
+
+#caro1-slide2 {
+    flex-direction: column;
+}
+
+#caro2-slide2 {
+    flex-direction: column;
+}
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* Extra large devices (large desktops, 576px and up) */
+/* -------------------------------------------------------------------------------------------- */
+
+@media (min-width: 576px){ 
+
+    .container {
+        max-width: 100%;
+    }
+
+    .iph-def-c2 {
+        height: 537px;
+        width: 270px;
+    }
+
+    #slide2-2a:hover #iphone-c2-lt {
+        top:300px;
+        transition: 0.5s;
+    }
+
+    #slide2-2a:hover #iphone-c2-lb {
+        top:200px;
+        transition: 0.3s;
+    }
+    #slide2-2a:hover #iphone-c2-lbr {
+        top:50px;
+        transition: 0.3s;
+    }
+
+    .fs-but {
+        font-size: 12px;
+    }
+
+    .fs-but2 {
+        font-size: 16px;
+    }
+
+    .fixed-height {
+        height: 600px !important;
+    }
+
+    .container2 {
+        max-width: 540px;
+    }
+
+    #iphone-c1-rb:hover {
+        transform: rotate(359deg);
+    }
+    
+    #iphone-c1-rt:hover {
+        transform: rotate(1deg);
+    }
+    
+    #iphone-c1-lb:hover {
+        transform: rotate(359deg);
+    }
+    
+    #iphone-c1-lt:hover {
+        transform: rotate(1deg);
+    }
+
+    #nav-height {
+        height:1000px;
+    }
+
+    h1 {
+        font-size: xxx-large;
+        font-weight: 600;
+        color: #fff;
+    }
+    
+    h2 {
+        font-size: xxx-large;
+        font-weight: 500;
+        color: black;
+    }
+    
+    h3 {
+        font-size: x-large;
+        font-weight: 400;
+        color: black;
+    }
+    
+    h4 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    h5 {
+        font-size: medium;
+        font-weight: 400;
+        color:black;
+    }
+    
+    h6 {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    #app-screens-top {
+        padding-top: 6rem;
+        padding-bottom: 10rem;
+    }
+
+    .gridbox-r {
+        flex: 3;
+        padding-left: 0rem;
+        padding-right:0rem;
+    }
+    
+    .gridbox-l {
+        flex: 1.3;
+    }
+
+    .shadowbox {
+        align-items: center; 
+        box-shadow: none; 
+        background-color: transparent;
+    }
+
+    .s2-buttons {
+        flex-direction: row;
+    }
+
+    .show-button {
+        margin: 0;
+    }
+
+    #smedia1, #smedia2 {
+        padding-top: 0rem;
+        padding-left: 1rem;
+    }
+
+    #circle-easy1 {
+        border: 40px solid #ffa500cc;
+        width: 13rem;
+        height: 13rem;
+    }
+    
+    #circle-easy2 {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .form-design {
+        height:760px;
+    }
+
+    #appst-shell {
+        height: 650px;
+    }
+
+    .padding2-tb {
+        padding:2rem 0rem;
+    }
+
+    #circle3 {
+        width: 28.8rem;
+        height: 28.8rem;
+    }
+
+    #circle4 {
+        width: 21rem;
+        height: 21rem;
+    }
+
+    #s1-2-text {
+        color: black;
+        text-align: center;
+    }
+
+    #s1-2 {
+        width:100%;
+        margin: 0;
+    }
+
+    .carousel {
+        height:890px;  
+    }
+
+    .carousel-inner {
+        height:850px;
+    }
+
+    .c2-h {
+        height:600px;
+    }
+
+    #slide2-1a {
+        padding-top: 0rem;
+        height: 500px;
+    }
+
+    #slide2-1b {
+        height: 500px;
+        flex:0;
+    }
+
+    #slide2-2b {
+        padding-top: 0rem;
+        height: 500px;
+        flex:0;
+    }
+
+    #caro1-slide1 {
+        flex-direction: column;
+    }
+
+    #caro2-slide1 {
+        flex-direction: row;
+    }
+
+    #caro1-slide2 {
+        flex-direction: column;
+    }
+    #caro2-slide2 {
+        flex-direction: row;
+    }
+
+    #s1-2 p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+    }
+
+    .iph-c2lt {
+        height: 591px;
+        width: 296px;
+        background-size: 100%;
+    }
+
+    .iph-def-2 {
+        height: 504px;
+        width: 255px;
+    }
+
+    #caro1 h1 {
+        font-size: 3rem;
+    }
+    #caro2 h1 {
+        font-size: 2.3rem;
+    }
+
+    #caro1 p {
+        font-size: 1rem;
+    }
+    #caro2 p {
+        font-size: 1.2rem;
+    }
+
+    .showcase-buttons {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    #circle8:hover {
+        background-color: rgba(255, 166, 0, 0.3);
+        border-color: rgba(255, 166, 0, 0.4);
+        transition: 0.3s;
+    }
+    #circle5:hover {
+        background-color: rgba(20, 136, 253, 0.3);
+        border-color: rgba(20, 136, 253, 0.3);
+        transition: 0.3s;
+    }
+    #circle3:hover {
+        background-color: rgba(193, 208, 219, 0.2);
+        transition: 0.3s;
+        z-index: 0;
+    }
+    #circle4:hover {
+        background-color: rgba(193, 208, 219, 0.4);
+        transition: 0.3s;
+    }
+
+    #iphone3 {
+        width: 280px;
+    }
+
+    #iphone3:hover {
+        left:136px;
+        width: 280px;
+    }
+
+    #carousel2-slide1 {
+        height: 600px;
+        justify-content: space-between;
+    }
+    #carousel2-slide2 {
+        height: 600px;
+        justify-content: space-between;
+    }
+
+    .carousel-control-next {
+        top: 850px;
+        left: 100%;
+        visibility: visible;
+      }
+
+    .carousel-control-prev {
+        top: 850px;
+        left: 0%;
+        visibility: visible;
+    }
+
+    #matris-sm {
+        background-image: radial-gradient(#f2805b20 20%, transparent 20%);
+        background-position: 0 0, 10px 10px;
+        background-size: 20px 20px;
+    }
+
+    .matr-sm {
+        position: relative;
+        left: -130px;
+        top:120px;
+        height: 155px;
+        width: 135px
+    }
+
+}
+
+/* -------------------------------------------------------------------------------------------- */
+/* Extra large devices (large desktops, 768px and up) */
+/* -------------------------------------------------------------------------------------------- */
+
+@media (min-width: 768px){
+
+    .container2 {
+        max-width: 720px;
+    }
+
+    #iphone3 {
+        width: 270px;
+    }
+
+    .fixed-height {
+        height: 550px !important;
+    }
+
+    .c1-p-para {
+        flex: 1;
+    }
+
+    .c2-p-para {
+        flex: 1;
+    }
+
+    .c1-p-padd {
+        flex: 0.1;
+    }
+
+    .c2-p-padd {
+        flex: 0;
+    }
+
+    #nav-height {
+        height:890px;
+    }
+
+    #appst-shell {
+        height: 680px;
+    }
+    
+    .form-design {
+        padding: 2rem 0rem 2rem 0rem;
+        height:630px;
+    }
+
+    .iph-def {
+        height: 490px;
+        width: 224px;
+    }
+
+    .iph-def-2 {
+        height: 552px;
+        width: 252px;
+    }
+
+    .container-s1 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;  
+    }
+
+    #box6-1 {
+        width:100%;
+        background-color: transparent;
+    }
+
+    #s1-2 p {
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 2rem;
+    }
+
+    #circle3 {
+        width: 28.8rem;
+        height: 28.8rem;
+    }
+
+    #circle4 {
+        width: 21rem;
+        height: 21rem;
+    }
+
+    #grid-2-header-text {
+        text-align: center;
+    }
+
+    .caro1-text-align {
+        text-align:left;
+    }
+
+    .carousel {
+        height:650px;  
+    }
+
+    .carousel-inner {
+        height:750px;
+    }
+
+    .c2-h {
+        height:550px;
+    }
+
+    #slide1-1b {
+        flex:0.9;
+    }
+
+    #slide1-2a {
+        flex:0.9;
+    }
+
+    #slide2-2a {
+        flex:0.9;
+    }
+
+    #caro1-slide1 {
+        flex-direction: row;
+    }
+    #caro2-slide1 {
+        flex-direction: row;
+    }
+
+    #caro1-slide2 {
+        flex-direction: row; 
+    }
+    #caro2-slide2 {
+        flex-direction: row; 
+    }
+
+    .showcase-buttons {
+        justify-content: left;
+        flex-direction: row;
+    }
+
+    #caro1 h1 {
+        font-size: 2.1rem;
+    }
+    #caro2 h1 {
+        font-size: 3rem;
+    }
+
+    #caro1 p {
+        font-size: 0.9rem;
+    }
+    #caro2 p {
+        font-size: 1rem;
+    }
+
+    #iphone3:hover {
+        left:222px;
+    }
+
+    #carousel2-slide1 {
+        height: 550px;
+        justify-content: space-between;
+    }
+
+    .btn-opaque {
+        height: 3rem;
+        width: 10rem;
+    }
+
+    .carousel-control-next {
+        top: 605px;
+        left: 94%
+    }
+
+    .carousel-control-prev {
+        top: 605px;
+        left: 0%;
+    }
+
+    .shadow-image {
+        height: 72px;
+        width: 224px;
+    }
+
+    .matr-sm {
+        position: relative;
+        left: 260px;
+        top:60px;
+        height: 155px;
+        width: 135px
+    }
+
+}
+
+/* -------------------------------------------------------------------------------------------- */
+/* Extra large devices (large desktops, 992px and up) */
+/* -------------------------------------------------------------------------------------------- */
+ 
+@media (min-width: 992px) {
+    .container2 {
+        max-width: 960px;
+    }
+
+    #iphone3 {
+        width: 290px;
+    }
+
+    .shadow-image {
+        height: 80px;
+        width: 280px;
+    }
+
+    .carousel-control-next {
+        top: 650px;
+        left: 95%;
+      }
+
+    .carousel-control-prev {
+        top: 650px;
+        left: 0%;
+      }
+
+    .caro2-text-align {
+        text-align:left;
+    }
+
+    #nav-height {
+        height:1000px;
+    }
+
+    .c1-p-para {
+        flex: 1;
+    }
+
+    .c2-p-para {
+        flex: 1;
+    }
+    
+    .c1-p-padd {
+        flex: 0.2;
+    }
+
+    .c2-p-padd {
+        flex: 0.2;
+    }
+
+    #appst-shell {
+        height: 450px;
+    }
+
+    #caro1-slide1 li {
+        font-size: 1.2rem;
+    }
+
+    #caro2-slide1 li {
+        font-size: 1.2rem;
+    }
+
+    #caro1-slide2 li {
+        font-size: 1.2rem;
+    }
+
+    #caro2-slide2 li {
+        font-size: 1.2rem;
+    }
+
+    .showcase-buttons {
+        justify-content: left;
+        flex-direction: row;
+    }
+
+    .s2-buttons {
+        justify-content: left;
+    }
+
+    .btn-white {
+        margin-right: 1rem;
+    }
+
+    #features {
+        justify-content: left;
+        padding-bottom: 1rem;
+    }
+
+    .gridbox-r {
+        flex: 3;
+        padding-left: 0rem;
+        padding-right:0rem;
+
+    }
+    
+    .gridbox-l {
+        flex: 1.2;
+    }
+
+    .iph-def {
+        height: 554px;
+        width: 280px;
+    }
+
+    .iph-def-2 {
+        height: 613px;
+        width: 280px;
+    }
+
+    .iph-c2lt {
+        height: 513px;
+        width: 296px;
+        background-size: 100%;
+    }
+
+    .container-s1 {
+        justify-content: space-between;
+        flex-direction: row;  
+    }
+
+    #s1-1 {
+        width:600px;
+    }
+
+    #s1-2 {
+        width:360px;
+        margin: 0;
+    }
+
+    #s1-2 p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+    }
+
+    #circlephone {
+        position: relative;
+        height: 513px; 
+        width: 400px;
+    }
+
+    #circle3 {
+        width: 32rem;
+        height: 32rem;
+    }
+
+    #circle4 {
+        width: 24rem;
+        height: 24rem;
+    }
+
+    .s1-buttons {
+        justify-content: left;
+        flex-direction: row;
+    }
+
+    #s1-2-text {
+        text-align: left;
+    }
+
+    #grid-2 #box1 p {
+        font-weight: 400;
+        font-size: 0.9rem;
+        line-height: 2;
+    }
+
+    #box2 p {
+        font-weight: 400;
+        font-size: 0.7rem;
+        line-height: 1.5;
+    }
+    #box3 p {
+        font-weight: 400;
+        font-size: 0.7rem;
+        line-height: 1.5;
+    }
+    #box4 p {
+        font-weight: 400;
+        font-size: 0.7rem;
+        line-height: 1.5;
+    }
+    #box5 p {
+        font-weight: 400;
+        font-size: 0.7rem;
+        line-height: 1.5;
+    }
+
+    #grid-2-header-text {
+        text-align: left;
+    }
+
+    .iph-c2rt {
+        height: 513px;
+        width: 296px;
+    }
+
+    #slide1-2 p {
+        font-size: 1.1rem !important;
+    }
+
+    .carousel {
+        height:600px;  
+    }
+
+    #slide1-1b {
+        flex:1;
+    }
+
+    #slide1-2a {
+        flex:1;
+    }
+
+    #slide2-1a {
+        flex:1.1;
+    }
+
+    #slide2-1b {
+        flex:1;
+    }
+
+    #slide2-2a {
+        flex:1;
+    }
+
+    #slide2-2b {
+        flex:1.1;
+    }
+
+    #nav-font a {
+        font-size: 1.1rem;   
+    }
+
+    #circle-easy1 {
+        border: 30px solid #ffa500cc;
+        width: 10rem;
+        height: 10rem;
+    }
+
+    #circle-easy3 {
+        position: absolute;
+        border-radius: 100%;
+        background-color: #1487FD;;
+        width: 7rem;
+        height: 7rem;
+    }
+
+    #caro1 h1 {
+        font-size: 3rem;
+    }
+
+    #caro2 h1 {
+        font-size: 2.2rem;
+    }
+
+    #caro1 p {
+        font-size: 1rem;
+    }
+
+    #caro2 p {
+        font-size: 1rem;
+    }
+
+    #iphone3:hover {
+        top:60px;
+        left:110px;
+        width: 300px;
+    }
+
+    #carousel2-slide1 {
+        height: 550px;
+        justify-content: space-between;
+    }
+
+    .btn-opaque {
+        height: 3rem;
+        width: 11rem;
+    }
+
+    .matr-sm {
+        position: relative;
+        left: 120px;
+        top:200px;
+        height: 155px;
+        width: 135px
+    }
+} 
+
+/* -------------------------------------------------------------------------------------------- */
+/* Extra large devices (large desktops, 1200px and up) */
+/* -------------------------------------------------------------------------------------------- */
+
+@media (min-width: 1200px) {  
+
+    .container2 {
+        max-width: 1140px;
+    }
+
+    #bottom-sticky{
+        position: sticky;
+        top: 0;
+        z-index: 7;
+    }
+
+    #s1-2 {
+        width:513px;
+        margin: 0;
+    }
+
+    .c1-p-para {
+        flex: 1;
+    }
+
+    .c2-p-para {
+        flex: 1;
+    }
+    
+    .c1-p-padd {
+        flex: 0.3;
+    }
+
+    .c2-p-padd {
+        flex: 0;
+    }
+
+    #s1-2 p {
+        font-size: .9rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+    }
+
+    #circlephone{
+        height: 513px; 
+        width: 620px;
+    }
+
+    #grid-2 #box1 p {
+        font-weight: 400;
+        font-size: 1.08rem;
+        line-height: 2;
+    }
+
+    .iph-c2rt {
+        height: 513px;
+        width: 296px;
+    }
+    
+    .iph-c2rb {
+        height: 440px;
+        width: 296px;
+    }
+
+    .carousel {
+        height:600px;  
+    }
+
+    #c1-text {
+        width: 100%;
+        padding: 0;
+    }
+
+    #slide1-1a {
+        height: 600px;
+        flex:0.85;
+    }
+    
+    #slide1-2b {
+        height: 600px;
+        flex: 0.85;
+    }
+
+    #slide2-1a {
+        height: 600px;
+        flex: 1.15;
+    }
+
+    #slide2-1b {
+        height: 600px;
+    }
+
+    #slide2-2a {
+        height: 600px;
+    }
+
+    #slide2-2b {
+        height: 600px;
+        flex:1.15;
+    }
+
+    #carousel1-slide1 {
+        height: 750px;
+        justify-content: space-between;
+    }
+
+    #carousel2-slide1 {
+        height: 550px;
+        justify-content: space-between;
+    }
+
+    #carousel1-slide2 {
+        justify-content: space-between;
+    }
+
+    #carousel2-slide2 {
+        justify-content: space-between;
+        height: 850px;
+    }
+
+    #nav-font a {
+        font-size: 1.3rem;   
+    }
+
+    #circle-easy1 {
+        border: 40px solid #ffa500cc;
+        width: 13rem;
+        height: 13rem;
+    }
+
+    #caro1 h1 {
+        font-size: 3.5rem;
+    }
+
+    #caro2 h1 {
+        font-size: 2.7rem;
+    }
+
+    #caro1 p {
+        font-size: 1rem;
+    }
+
+    #caro2 p {
+        font-size: 1rem;
+    }
+
+    #iphone3:hover {
+        top:5px;
+        left:100px;
+    }
+
+    .btn-opaque {
+        height: 3rem;
+        width: 12rem;
+    }
+
+    .carousel-control-next {
+        top: 680px;
+        left: 97%;
+    }
+
+    .carousel-control-prev {
+        top: 680px;
+        left: 0%;
+    }
+
+    .matr-sm {
+        position: relative;
+        left: 120px;
+        top:100px;
+        height: 155px;
+        width: 135px
+    }
+
+    .matr-xl {
+        position: absolute;
+        left: -400px;
+        top: 190px;
+        height: 450px;
+        width: 300px;
+        z-index: 0;
+    } 
+        
+}

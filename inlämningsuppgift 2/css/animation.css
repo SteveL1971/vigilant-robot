@@ -1,0 +1,64 @@
+/* -------------------------------------------------------------------------------------------- */
+/* Extra large devices (large desktops, 768px and up) */
+/* -------------------------------------------------------------------------------------------- */
+
+@media (min-width: 992px){
+
+
+.animate-left {
+    position: relative;
+    animation-name: slide-in-from-left;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.animate-left2 {
+    position: relative;
+    animation-name: slide-left;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.animate-right {
+    position: relative;
+    animation-name: slide-in-from-right;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.animate-right2 {
+    position: relative;
+    animation-name: slide-right;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes slide-in-from-left {
+    0%   { top: 0;  left: -300%; }
+    50%  { top: 0;  left: calc(100% - 190px); }
+    100% { top: 0;  left: -300%; }
+}
+
+@keyframes slide-left {
+    0%   { top: 0;  left: -100%; }
+    50%  { top: 0;  left: calc(100% - 190px); }
+    100% { top: 0;  left: -100%; }
+}
+
+@keyframes slide-right {
+    0%   { top: 0;  left: 100%; }
+    50%  { top: 0;  left: calc(100% - 190px); }
+    100% { top: 0;  left: 100%; }
+}
+
+@keyframes slide-in-from-right {
+    0%   { top: 0;  left: 300%; }
+    50%  { top: 0;  left: calc(100% - 190px); }
+    100% { top: 0;  left: 300%; }
+}
+
+}
