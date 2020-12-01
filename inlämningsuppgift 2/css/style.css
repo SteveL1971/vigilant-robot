@@ -141,36 +141,14 @@
     height: 650px !important;
 }
 
-#iphone-c1-rb:hover {
-    transform: rotate(11deg);
-}
 
-#iphone-c1-rt:hover {
-    transform: rotate(349deg);
-}
-
-#iphone-c1-lb:hover {
-    transform: rotate(11deg);
-}
-
-#iphone-c1-lt:hover {
-    transform: rotate(349deg);
-}
 
 #iphone3 {
     opacity: 95%;
     width: 280px;
 }
 
-#iphone3:hover {
-    opacity: 100%;
-    background-size: 100%;
-    top:-20px;
-    left:100px;
-    width: 300px;
-    height: 600px;
-    transition: 0.3s;
-}
+
 
 .shadowbox {
     align-items: center; 
@@ -236,6 +214,8 @@
     border: 0;
     max-width: 320px;
 }
+
+
 
 .carousel-caption {
     position: absolute;
@@ -308,7 +288,7 @@ p {
   width: 30px;
   text-align: center;
   height: 30px;
-  visibility: hidden;
+  visibility: visible;
 }
 
 .circle1 {
@@ -494,40 +474,9 @@ p {
     border-radius: 50%;
 }
 
-#circlephone2:hover div{
-    opacity: 1;
-    transition: 1.0s;
-}
 
-#slide2-1b:hover #iphone-c2-rt {
-    top:300px;
-    transition: 0.5s;
-}
 
-#slide2-1b:hover #iphone-c2-rb {
-    top:200px;
-    transition: 0.3s;
-}
 
-#slide2-1b:hover #iphone-c2-rbr {
-    top:50px;
-    transition: 0.3s;
-}
-
-#slide2-2a:hover #iphone-c2-lt {
-    top:480px;
-    transition: 0.5s;
-}
-
-#slide2-2a:hover #iphone-c2-lb {
-    top:540px;
-    transition: 0.3s;
-}
-
-#slide2-2a:hover #iphone-c2-lbr {
-    top:420px;
-    transition: 0.3s;
-}
 
 .btn-orange-grid {
     display: inline-block;
@@ -596,9 +545,8 @@ p {
 
 .btn-grey {
     border-radius: 0.5rem;
-    width: 11rem;
+    width: 10.5rem;
     height: 3.5rem;
-    margin-right: 1rem;
     justify-content: space-between;
     align-items: center;
     background-color: #8a8a8a30 !important;
@@ -619,6 +567,10 @@ p {
 #nav1 {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    border: 0;
+    width: 290px;    
 
 }
 
@@ -1352,6 +1304,21 @@ textarea {
     flex-direction: column;
 }
 
+.c2-next {
+    top: 93%;
+    left: 81%;
+}
+
+.c2-prev {
+    top: 93%;
+    left: 10%;
+}
+
+#circlephone2:hover div{
+    opacity: 1;
+    transition: 1.0s;
+}
+
 
 /* -------------------------------------------------------------------------------------------- */
 /* Extra large devices (large desktops, 576px and up) */
@@ -1359,8 +1326,70 @@ textarea {
 
 @media (min-width: 576px){ 
 
+    .container2 {
+        max-width: 540px;
+    }
+
     .container {
         max-width: 100%;
+    }
+
+    #slide2-1b:hover #iphone-c2-rbr {
+        top:50px;
+        transition: 0.3s;
+    }
+    
+    #slide2-2a:hover #iphone-c2-lt {
+        top:480px;
+        transition: 0.5s;
+    }
+    
+    #slide2-2a:hover #iphone-c2-lb {
+        top:540px;
+        transition: 0.3s;
+    }
+    
+    #slide2-2a:hover #iphone-c2-lbr {
+        top:420px;
+        transition: 0.3s;
+    }
+
+    #iphone-c1-rb:hover {
+        transform: rotate(11deg);
+    }
+    
+    #iphone-c1-rt:hover {
+        transform: rotate(349deg);
+    }
+    
+    #iphone-c1-lb:hover {
+        transform: rotate(11deg);
+    }
+    
+    #iphone-c1-lt:hover {
+        transform: rotate(349deg);
+    }
+
+    #iphone3:hover {
+        opacity: 100%;
+        background-size: 100%;
+        top:-20px;
+        left:100px;
+        width: 300px;
+        height: 600px;
+        transition: 0.3s;
+    }
+
+
+    
+    #slide2-1b:hover #iphone-c2-rt {
+        top:300px;
+        transition: 0.5s;
+    }
+    
+    #slide2-1b:hover #iphone-c2-rb {
+        top:200px;
+        transition: 0.3s;
     }
 
     .iph-def-c2 {
@@ -1394,9 +1423,7 @@ textarea {
         height: 600px !important;
     }
 
-    .container2 {
-        max-width: 540px;
-    }
+
 
     #iphone-c1-rb:hover {
         transform: rotate(359deg);
@@ -1652,11 +1679,23 @@ textarea {
         visibility: visible;
       }
 
+    .c2-next {
+        top: 92%;
+        left: 95%;
+    }
+
     .carousel-control-prev {
         top: 850px;
         left: 0%;
         visibility: visible;
     }
+
+    .c2-prev {
+        top: 92%;
+        left: 0%;
+    }
+
+    
 
     #matris-sm {
         background-image: radial-gradient(#f2805b20 20%, transparent 20%);
@@ -1670,6 +1709,10 @@ textarea {
         top:120px;
         height: 155px;
         width: 135px
+    }
+
+    #nav1 {
+        width: 540px;    
     }
 
 }
@@ -1842,8 +1885,18 @@ textarea {
         left: 94%
     }
 
+    .c2-next {
+        top: 92%;
+        left: 97%;
+    }
+
     .carousel-control-prev {
         top: 605px;
+        left: 0%;
+    }
+
+    .c2-prev {
+        top: 92%;
         left: 0%;
     }
 
@@ -1858,6 +1911,10 @@ textarea {
         top:60px;
         height: 155px;
         width: 135px
+    }
+
+    #nav1 {
+        width: 720px;    
     }
 
 }
@@ -1885,10 +1942,20 @@ textarea {
         left: 95%;
       }
 
+    .c2-next {
+        top: 92%;
+        left: 95%;
+    }
+
     .carousel-control-prev {
         top: 650px;
         left: 0%;
       }
+
+    .c2-prev {
+        top: 92%;
+        left: 2%;
+    }
 
     .caro2-text-align {
         text-align:left;
@@ -2149,6 +2216,10 @@ textarea {
         height: 155px;
         width: 135px
     }
+
+    #nav1 {
+        width: 960px;    
+    }
 } 
 
 /* -------------------------------------------------------------------------------------------- */
@@ -2312,9 +2383,24 @@ textarea {
         left: 97%;
     }
 
+    .c2-prev {
+        top: 92%;
+        left: 3%;
+    }
+
+    .c2-next {
+        top: 92%;
+        left: 97%;
+    }
+
     .carousel-control-prev {
         top: 680px;
         left: 0%;
+    }
+
+    .c2-prev {
+        top: 92%;
+        left: 3%;
     }
 
     .matr-sm {
@@ -2333,5 +2419,9 @@ textarea {
         width: 300px;
         z-index: 0;
     } 
+
+    #nav1 {
+        width: 1140px;    
+    }
         
 }

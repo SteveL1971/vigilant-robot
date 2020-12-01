@@ -26,40 +26,43 @@
         <div id="headcolour" class="container bg-rectangle mb-1">
             <div class="bg-layer">
                 <div id="nav-height" class="container2">
-                    <nav id="nav1" class="navbar navbar-default navbar-expand-lg navbar-dark">
-                        <div id="header-logo" class="d-flex">
-                            <a class="navbar-brand logo-image" href="#"></a>
-                        </div>
-                        <div id="header-links" class="d-flex">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarSupportedContent-6" aria-controls="navbarSupportedContent-6"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent-6">
-                                <ul id="nav-font" class="navbar-nav mr-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">About Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Features</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Screens</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <button class="btn btn-yellow">Get the app</button>
-                                    </li>
-                                </ul>
+                    <div id="nav1">
+                        <nav id="nav1" class="navbar navbar-default navbar-expand-lg navbar-dark bg-lightblue">
+                            <div id="header-logo" class="d-flex">
+                                <a class="navbar-brand logo-image" href="#"></a>
                             </div>
-                        </div>
-                    </nav>
+                            <div id="header-links" class="d-flex">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent-6" aria-controls="navbarSupportedContent-6"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent-6">
+                                    <ul id="nav-font" class="navbar-nav mr-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#about-us">About Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#features">Features</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#application-screens">Screens</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#contact-us">Contact Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <button class="btn btn-yellow">Get the app</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div style="height:5rem;"></div>
                     <div id="c1" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
                         <ol class="carousel-indicators">
                             <li data-target="#carousel1-slide1" data-slide-to="0" class="active"></li>
@@ -194,7 +197,7 @@
         </div>
     </section>
 
-    <div class="whitespace50"></div>
+    <div id="about-us" class="whitespace50"></div>
     <div class="whitespace50 d-none d-xl-flex"></div>
     <!-- <div class="whitespace50 d-none d-xl-flex"></div> -->
 
@@ -221,8 +224,8 @@
                 </section>
 
                 <section id="s1-2">
-                    <div id="s1-2-text">
-                        <div class="d-none d-sm-block whitespace100"></div>
+                    <div id="s1-2-text" >
+                        <div class="d-none d-sm-block whitespace50"></div>
                         <div>
                             <button class="btn-orange btn">About Us</button>
                         </div>
@@ -230,7 +233,7 @@
                         <br />
                         <h2>Easy To Search Your Items By This App</h2>
                         <br />
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        <p class="ml-3 mr-3 ml-sm-0 mr-sm-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                             Ipsum
                             has
                             been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -241,8 +244,7 @@
                             also the leap into electronic typesetting, remaining essentially unchanged. It was
                             popularised
                             in
-                            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-                            recently
+                            the 1960s with the release of Letraset sheets containing Lorem Ipsum
                         </p>
                         <br />
                         <div class="d-flex s1-buttons">
@@ -267,7 +269,7 @@
         </div>
     </section>
 
-    <div class="whitespace100 d-none d-sm-block"></div>
+    <div id="features" class="whitespace100 d-none d-sm-block"></div>
 
     <div class="container">
         <div id="matris-parent" class="container2 whitespace50">
@@ -372,6 +374,8 @@
         </div>
     </div>
 
+    <div id="application-screens" class="whitespace50 d-none d-sm-block"></div>
+
     <div id="app-screens-top" class="container mb-1 bg-white d-none d-sm-flex whitespace100">
         <div class="container2">
             <h2 class="black-text">Application Screens</h2>
@@ -465,7 +469,7 @@
         </div>
     </div>
 
-    <div id="bottom-sticky" class="container mb-1 bg-lightblue bg-image2">
+    <div class="container mb-1 bg-lightblue bg-image2">
         <div id="" class="container2">
             <div id="c2" class="fixed-height carousel slide carousel-fade" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -562,12 +566,21 @@
                         </div>
                     </div>
                 </div>
+                <a class="carousel-control-prev c2-prev" href="#c2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next c2-next" href="#c2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
     </div>
 
-    <div class="whitespace50"></div>
+    <div id="contact-us" class="whitespace50"></div>
     <div class="whitespace50 d-none d-sm-flex"></div>
+
     <div class="whitespace50 d-none d-sm-flex d-lg-none"></div>
 
     <div class="container bg-white">
@@ -604,7 +617,7 @@
         </div>
     </div>
 
-    <div id="bot-nav" class="container bg-lightblue bg-layer-botto">
+    <div id="bot-nav" class="container bg-lightblue bg-layer-bottom">
         <div id="bottomnavbar" class="container2">
             <div class="bottom-nav">
                 <div id="bottom-logo">
@@ -613,10 +626,10 @@
                 <div class="padding2-tb">
                     <div class="row my-3" id="links">
                         <div class="col-md my-2"><a href="#">Home</a></div>
-                        <div class="col-md my-2"><a href="#">About Us</a></div>
-                        <div class="col-md my-2"><a href="#">Features</a></div>
-                        <div class="col-md my-2"><a href="#">Screens</a></div>
-                        <div class="col-md my-2"><a href="#">Contact Us</a></div>
+                        <div class="col-md my-2"><a href="#about-us">About Us</a></div>
+                        <div class="col-md my-2"><a href="#features">Features</a></div>
+                        <div class="col-md my-2"><a href="#application-screens">Screens</a></div>
+                        <div class="col-md my-2"><a href="#contact-us">Contact Us</a></div>
                     </div>
                 </div>
                 <div id="socialmedia" class="d-flex">
