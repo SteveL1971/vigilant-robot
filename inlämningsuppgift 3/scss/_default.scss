@@ -1,0 +1,64 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    min-width: 300px;
+}
+
+html, body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="text"]
+{
+    font-size:0.8rem;
+    font-weight: 400;
+}
+
+option, select {
+    font-size: 0.8rem !important;
+ }
+
+ #mainform  {
+    height: auto;
+ }
+
+label {
+    margin-bottom: 0.1rem;
+    font-size: 0.8rem;
+}
+
+#header {
+    height: 3rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-design {
+    text-align: left;
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+/* Extra large devices (large desktops, 576px and up) */
+/* -------------------------------------------------------------------------------------------- */
+
+@media (min-width: 576px){ 
+.w-75 {
+    width: 50% !important;
+}
+
+}
