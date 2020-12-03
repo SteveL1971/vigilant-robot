@@ -196,7 +196,7 @@
 
 .form-design {
     padding: 4rem 0rem 0rem 0rem;
-    height:760px;
+    height:580px;
 }
 .form-padding {
     padding: 2rem 0rem 2rem 0rem;
@@ -283,12 +283,12 @@ p {
     top:700px;  
     background-color: #42A0FF;
     border-radius: 1rem;
-  align-items: center;
-  justify-content: center;
-  width: 30px;
-  text-align: center;
-  height: 30px;
-  visibility: visible;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    visibility: visible;
 }
 
 .circle1 {
@@ -567,10 +567,6 @@ p {
 #nav1 {
     display: flex;
     justify-content: space-between;
-    position: fixed;
-    z-index: 10;
-    border: 0;
-    width: 290px;    
 
 }
 
@@ -854,8 +850,9 @@ form {
 }
 
 .form-styling  {
-    padding: 35px 20px;
+    padding: 15px 10px;
     background-color: rgba(211, 211, 211, 0.219);
+    margin: 1;
 }
 
 .mess-styling  {
@@ -1250,8 +1247,10 @@ textarea {
 }
 
 .s1-buttons {
+    display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
 }
 .s2-buttons {
     display: flex;
@@ -1380,6 +1379,11 @@ textarea {
         transition: 0.3s;
     }
 
+    .s1-buttons {
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
 
     
     #slide2-1b:hover #iphone-c2-rt {
@@ -1525,7 +1529,7 @@ textarea {
     }
 
     .form-design {
-        height:760px;
+        height:580px;
     }
 
     #appst-shell {
@@ -1673,7 +1677,7 @@ textarea {
         justify-content: space-between;
     }
 
-    .carousel-control-next {
+    .c1-next {
         top: 850px;
         left: 100%;
         visibility: visible;
@@ -1684,7 +1688,7 @@ textarea {
         left: 95%;
     }
 
-    .carousel-control-prev {
+    .c1-prev {
         top: 850px;
         left: 0%;
         visibility: visible;
@@ -1880,7 +1884,7 @@ textarea {
         width: 10rem;
     }
 
-    .carousel-control-next {
+    .c1-next {
         top: 605px;
         left: 94%
     }
@@ -1890,7 +1894,7 @@ textarea {
         left: 97%;
     }
 
-    .carousel-control-prev {
+    .c1-prev {
         top: 605px;
         left: 0%;
     }
@@ -1937,7 +1941,7 @@ textarea {
         width: 280px;
     }
 
-    .carousel-control-next {
+    .c1-next {
         top: 650px;
         left: 95%;
       }
@@ -1947,7 +1951,7 @@ textarea {
         left: 95%;
     }
 
-    .carousel-control-prev {
+    .c1-prev {
         top: 650px;
         left: 0%;
       }
@@ -2378,7 +2382,7 @@ textarea {
         width: 12rem;
     }
 
-    .carousel-control-next {
+    .c1-next {
         top: 680px;
         left: 97%;
     }
@@ -2393,7 +2397,7 @@ textarea {
         left: 97%;
     }
 
-    .carousel-control-prev {
+    .c1-prev {
         top: 680px;
         left: 0%;
     }

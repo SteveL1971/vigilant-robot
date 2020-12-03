@@ -9,32 +9,32 @@
 
 #iphone-c1-lt, #iphone-c1-rt {
     transform: rotate(355deg);
-    left:30px; 
+    left:45px; 
     top: 370px;
     z-index: 0; 
 }
 
 #iphone-c1-lb, #iphone-c1-rb {
     transform: rotate(5deg);
-    left:80px; 
+    left:93px; 
     top:370px;
     z-index: 0; 
 }
 
 #iphone-c2-lt {
-    left:32px; 
+    left:44px; 
     top:580px;
     z-index: 2; 
 }
 
 #iphone-c2-lb {
-    left:64px; 
+    left:76px; 
     top:460px;
     z-index: 1; 
 }
 
 #iphone-c2-lbr {
-    left:0px; 
+    left:12px; 
     top:500px;
     z-index: 1; 
 }
@@ -280,28 +280,28 @@
 
     #iphone-c1-lt {
         left:115px; 
-        top: 350px;
+        top: 380px;
         z-index: 1;
         transform: rotate(0deg); 
     }
     
     #iphone-c1-lb {
         left:235px; 
-        top:410px;
+        top:440px;
         z-index: 2; 
         transform: rotate(0deg);
     }
 
     #iphone-c1-rt {
         left:115px; 
-        top: 350px;
+        top: 380px;
         z-index: 2; 
         transform: rotate(0deg);
     }
     
     #iphone-c1-rb {
         left:235px; 
-        top:410px;
+        top:440px;
         z-index: 3; 
         transform: rotate(0deg);
     }

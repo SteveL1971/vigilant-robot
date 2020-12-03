@@ -22,18 +22,34 @@
                     <div class="pb-2 pt-4" style="text-align: center;">
                         <form id="form-design" class="pt-3 pb-4 px-3">
                             <div id="header" class="row rounded mb-4 pt-2 bg-header">
-                                <h4>Konto</h4>
+                                <h3>Kontoregistrering</h3>
                             </div>
-                            <div class="row rounded pb-2">
+                            <div class="row rounded">
                                 <div class="form-group col-12 col-md-6">
-                                    <label for="firstname">Förnamn</label>
-                                    <input type="text" class="form-control" id="firstname"
-                                        aria-describedby="firstnameHelp">
+                                    <label for="firstname"><strong>Förnamn</strong></label>
+                                    <input type="text" class="form-control" id="firstname" aria-describedby="firstnameHelp" required>
                                 </div>
                                 <div class="form-group col-12 col-md-6">
-                                    <label for="lastname">Efternamn</label>
+                                    <label for="lastname"><strong>Efternamn</strong></label>
                                     <input type="text" class="form-control" id="lastname"
-                                        aria-describedby="lastnameHelp">
+                                        aria-describedby="lastnameHelp" required>
+                                </div>
+                            </div>
+                            <div class="row pt-2 rounded">
+                                <div class="form-group col-12">
+                                    <label for="email"><strong>E-postadress</strong></label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                                </div>
+                            </div>
+                            <div class="row pt-2 pb-2 rounded">
+                                <div class="form-group col-12 col-sm-6">
+                                    <label for="password"><strong>Lösenord</strong></label>
+                                    <input type="password" class="form-control" placeholder="*******" id="password" required>
+                                </div>
+                                <div class="form-group col-12 col-sm-6">
+                                    <label for="confirmpassword"><strong>Bekräfta lösenord</strong></label>
+                                    <input type="password" class="form-control" placeholder="*******"
+                                        id="confirmpassword" required>
                                 </div>
                             </div>
                             <div class="row rounded pb-1 bg-form">
@@ -42,21 +58,21 @@
                                     <br />
                                     <label for="invoice-street">Gatuadress</label>
                                     <input type="text" class="form-control" id="invoice-street"
-                                        aria-describedby="InvoiceStreetHelp">
+                                        aria-describedby="InvoiceStreetHelp" required>
                                 </div>
                                 <div class="form-group col-12 col-sm-4 col-md-3">
                                     <label for="invoice-zip">Postnummer</label>
                                     <input type="text" class="form-control" id="invoice-zip"
-                                        aria-describedby="InvoiceZipHelp">
+                                        aria-describedby="InvoiceZipHelp" required>
                                 </div>
                                 <div class="form-group col-12 col-sm-8 col-md-5">
                                     <label for="invoice-city">Ort</label>
                                     <input type="text" class="form-control" id="invoice-city"
-                                        aria-describedby="InvoiceCityHelp">
+                                        aria-describedby="InvoiceCityHelp" required>
                                 </div>
                                 <div class="form-group col-12 col-sm-6 col-md-4">
                                     <label for="invoice-land">Land</label>
-                                    <select id="invoice-land" class="form-control">
+                                    <select id="invoice-land" class="form-control" required>
                                         <option selected>Sweden</option>
                                         <option>Norway</option>
                                         <option>Finland</option>
@@ -93,27 +109,10 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="row pt-2 pb-2 rounded">
-                                <div class="form-group col-12">
-                                    <label for="email">E-post</label>
-                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                                </div>
-                            </div>
-                            <div class="row pt-2 pb-3 rounded">
-                                <div class="form-group col-12 col-sm-6">
-                                    <label for="password">Lösenord</label>
-                                    <input type="password" class="form-control" placeholder="*******" id="password">
-                                </div>
-                                <div class="form-group col-12 col-sm-6">
-                                    <label for="confirmpassword">Bekräfta lösenord</label>
-                                    <input type="password" class="form-control" placeholder="*******"
-                                        id="confirmpassword">
-                                </div>
-                            </div>
-                            <div class="row pb-2 rounded">
+                            <div class="row pt-4 pb-2 rounded">
                                 <div class="form-group col-12 form-check" style="padding-left:2.3rem;">
-                                    <input type="checkbox" class="form-check-input" id="gdpr">
-                                    <label class="form-check-label pb-3" for="gdpr">Jag godkänner villkoren och
+                                    <input type="checkbox" class="form-check-input" id="gdpr" required>
+                                    <label class="form-check-label pb-3" for="gdpr">Jag godkänner GDPR villkoren och
                                         samtycker till att Mitt företag AB kommunicerar med mig via post, e-mail och sms
                                         (du kan ändra kommunikationssätt under Mina Sidor) och bekräftar att jag har
                                         tagit del av informationen om hur Mitt Företag AB kommer att behandla mina
@@ -123,7 +122,7 @@
                             </div>
                             <div class="row pb-2 rounded">
                                 <div class="form-group col-12 form-check" style="padding-left:2.3rem;">
-                                    <input type="checkbox" class="form-check-input" id="newsletter">
+                                    <input type="checkbox" class="form-check-input" id="newsletter" required>
                                     <label class="form-check-label" for="newsletter">Jag vill motta de senaste nyheterna
                                         rörande kampanjer, trender, event samt personliga rekommendationer från Mitt
                                         Företag AB</label>

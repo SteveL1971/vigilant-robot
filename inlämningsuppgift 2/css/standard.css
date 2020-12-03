@@ -73,6 +73,7 @@ a:hover {
 
 .container {
     margin: auto;
+    padding: 0;
 }
 
 .d-flex {
